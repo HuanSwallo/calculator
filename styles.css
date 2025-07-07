@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-calculator {
+    background-color: #1C1A1A;
+    padding: 8px;
+}
+
+.display {
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    background-color: #609A6C;
+}
